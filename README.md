@@ -45,7 +45,10 @@ Alternatively, we can add this commands to .sh files and just run them instead.
     docker build -t mannyscontainers/react-signup:base .
 
 ## Deployment
-    # TODO
+This app has been deployed to my small Vultr VPS, you can access it here: https://mannybuilds.tech/
+P.S, I might keep it as the authentication for my other apps
+
+    # TODO Further notes
 
 ## References
 
