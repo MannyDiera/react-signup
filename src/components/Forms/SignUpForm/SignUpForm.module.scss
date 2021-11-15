@@ -1,0 +1,27 @@
+$form-blue: #4D91DB;
+
+.card {
+  height: 574px;
+  padding: 30px 45px;
+  z-index: 2;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  h2 {
+    margin-top: 40px;
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: $form-blue;
+  }
+}
+
+.formRow {
+  margin-bottom: 30px;
+}
+
+.enabledBtn {
+  font-weight: 600;
+}

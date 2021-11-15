@@ -1,0 +1,34 @@
+@import '~materialize-css/sass/components/_color-variables';
+$secondary-color: #4D91DB;
+@import '~materialize-css/sass/materialize';
+
+html {
+  font-size: 16px;
+}
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Materialize Library overrides */
+.btn.btn-block {
+  min-width: 100%;
+  border-radius: 0;
+  font-size: 1.25rem;
+  height: 52px;
+}
+
+.card .card-content {
+  padding: 8px;
+}
+
+.invalid ~ .helper-text {
+  color: red;
+}
+
+.helper-text.valid {
+  color: green;
+}
+
+.btn-floating.btn-small {
+  float: right;
+}
