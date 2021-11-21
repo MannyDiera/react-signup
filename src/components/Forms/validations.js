@@ -25,6 +25,7 @@ export default {
     }
   },
   confirmPassword: (value, compareValue) => {
+    console.log(value, compareValue);
     if (value.length > 4 && compareValue.length > 4) {
 
       if (value !== compareValue) {
